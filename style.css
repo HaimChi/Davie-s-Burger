@@ -1,0 +1,105 @@
+body {
+ font-size: 18px;
+ font-family: 'Oswald', sans-serif;
+}
+ 
+
+.title {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    
+}
+
+.nav li{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    
+}
+
+.all {
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+    
+}
+
+.banner {
+   background-image: url('https://images.unsplash.com/photo-1602192103300-47e66756152e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+   background-size: cover;
+    height: 500px;
+}
+
+.header {
+    display: block;
+    border: 1px #05A8AA solid;
+    background-color: #05A8AA;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+}
+
+.content p {
+    padding: 10px 60px;
+    text-align: center;
+    line-height: 40px;
+    line-height: 40px;
+}
+
+.button {
+    display: block;
+    border: 1px blue solid;
+    border-radius: 2px;
+    color: #05A8AA;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    margin: 30px auto;
+    padding:20px;
+    text-transform: uppercase;
+}
+
+.button span {
+    text-decoration: none;
+}
+
+.button:hover {
+    border: 1px #05A8AA solid;
+    background-color: #05A8AA;
+    color: white;
+}
+
+.nutrition {
+    padding: 40px;
+}
+
+.nutrition li {
+    display: block;
+    border: 1px #05A8AA solid;
+    background-color: #05A8AA;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px
+}
+
+.nutrition .category {
+      font-weight: 100;
+      letter-spacing: 2px;
+      display: block;
+    letter-spacing: 5px;
+    
+}
+
+.nutrition .value {
+     font-weight: bold;
+}
